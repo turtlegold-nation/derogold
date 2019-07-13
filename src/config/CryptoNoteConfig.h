@@ -143,7 +143,7 @@ const size_t   MAX_BLOCK_SIZE_INITIAL                        = 100000;
 const uint64_t MAX_BLOCK_SIZE_GROWTH_SPEED_NUMERATOR         = 100 * 1024;
 const uint64_t MAX_BLOCK_SIZE_GROWTH_SPEED_DENOMINATOR       = 365 * 24 * 60 * 60 / DIFFICULTY_TARGET;
 const uint64_t MAX_EXTRA_SIZE                                = 1024;
-const uint64_t MAX_EXTRA_SIZE_V2                             = 512;
+const uint64_t MAX_EXTRA_SIZE_V2                             = 1024;
 const uint64_t MAX_EXTRA_SIZE_V2_HEIGHT                      = 5000000; // recommended : 0
 
 /* For new projects forked from this code base, the values immediately below
